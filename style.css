@@ -1,0 +1,81 @@
+#anim{
+    animation: animation-name 5s infinite;
+}
+@-webkit-keyframes animation-name{
+    from{
+        border: 17px solid black;
+    }
+    to{
+        border: 7px dotted green;
+    }
+}
+
+.navber{
+    
+
+    background-color: chocolate;
+     display: flex;
+    justify-content: space-around;
+     color:red;
+}
+.container{
+    background-color: chocolate;
+    margin: 2px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#boxes{
+    animation: animation-name 5s infinite;
+}
+@-webkit-keyframes animation-name{
+    from{
+        border: 17px solid black;
+    }
+    to{
+        border: 6px dotted  green;
+    }
+}
+.box1{
+    background-image: url(./download.jfif);
+    width: 30%;
+    height: 40vh;
+    padding: 10px;
+    margin: 50px;
+
+}
+.box1{
+    animation: animation-name 5s infinite;
+}
+@-webkit-keyframes animation-name{
+    from{
+        border: 10px solid black;
+    }
+    to{
+        border: 6px dotted  white;
+    }
+}
+
+
+
+.box2{
+    background-image:url(./download.jfif);
+    width: 30%;
+    height: 40vh;
+    padding: 10px;
+    margin: 50px;
+      
+}
+.box2{
+    animation: animation-name 5s infinite;
+}
+@-webkit-keyframes animation-name{
+    from{
+        border: 11px solid black;
+    }
+    to{
+        border: 6px dotted  white;
+    }
+}
